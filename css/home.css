@@ -1,0 +1,648 @@
+ * ::selection{
+     background-color: gray;
+ }
+
+
+ :root{
+    --darkblu: #0D113F;
+    --blulight:#F5F5FF;
+ --white:#ffffff;
+ --gray:#f5f5f5;
+ --black:#222;
+ } 
+ 
+ body{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .page1{
+  margin:auto;
+  background-image: url("../imag/homrbgk.png");
+  background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width:100%;
+      height: 100%;
+ }
+
+ 
+ .header{
+     /* border:2px solid white; */
+     margin-left: 5px;
+     margin-right: 5px;
+     z-index: 0;
+     /* position: relative; */
+
+ }
+ 
+ 
+ .navbar{
+     color: white;
+    margin: 10px;
+    height: 20%;}
+  
+
+    .navbar ul{
+        /* border: white solid 1px; */
+        position:absolute;
+        top: -22px;
+        align-items: center;
+      display:flex; 
+      text-align: center; 
+      padding: 5px 20px; 
+      list-style: none;
+    }
+    
+.navbar ul li{
+    padding: 6px;
+}
+
+.page1 .header .navbar  ul li a{
+    color: white;
+   margin: 20px;
+   height: 30%;
+margin-left: 30px;
+text-decoration: non;
+
+}
+/* Right-aligned link */
+.navbar a.right {
+  float: left; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  /* background-color: #ddd; Grey background color */
+  color: black; /* Black text color */
+}
+
+.navbar h1{
+color:white; ;
+font-size: 25px;
+margin-top: 15px;
+margin-right: 10px;
+margin-left: 10px;
+}
+.navbar  .sign {
+    height:40px;
+    width:100%;
+    background-color:#0D113F;
+    border-radius:15px;
+    margin:10px;
+    /* // paddingLeft:;40px; */
+    border:2px solid #0D113F;
+    text-align:center;
+    border-color:#0D113F;
+    font-size:20px;
+    color:white;
+}
+.navbar ul li form{
+    margin-left: 20px;
+}
+.navbar ul form input{
+    margin:10px;
+    /* backgroundImage: url(/imag/searchicon.png), */
+    /* backgroundosition: 10px 10px; */
+    /* backgroundRepeat: "no-repeat", */
+    padding-left:100px;
+    border-radius: 15px;
+   /* //  borderColor:"#F5F5F5", */
+    height:35px;
+width:300px;
+background-color: rgba(155, 143, 143, 0.014);
+/* opacity:0.16; */
+border: solid rgba(255, 255, 255, 0.596) 0.5px;
+}
+.navbar ul li div{
+    margin-left: 50px;
+}
+.navbar .sign:hover{
+  background-color:white;
+  color:var(--darkblu);
+  border: 2px  solid var(--darkblu);}
+ 
+.navbar .login{
+    height:40px;
+    width: 100%;
+    border-radius: 15px;
+    margin:10px;
+    border:2px solid var(--darkblu);
+    text-align:center;
+    font-size:20px;
+    opacity: 0.16;
+    color:#0F103F;
+}
+.navbar .login:hover{
+    background-color:white;
+    opacity: 2;
+  color: var(--darkblu);
+  border: 2px  solid var(--darkblu);}
+ 
+
+
+  
+  
+  
+
+
+
+  /* page slide image */
+
+
+
+  .page2{
+    /* background-color: #9898b3; */
+        margin: 5px;
+        width: 100%;
+        height: 100%;;
+   }
+  .page2 .imagpag .navbar2{
+    color: white;
+   /* margin: 5px; */
+   height: 50px;}
+ 
+
+   .page2 .imagpag .navbar2 ul{
+       color: gray;
+       font-size:30px;
+       display:flex;
+        list-style-type: none;
+       
+   }
+   
+   .page2 .imagpag .navbar2 ul li{
+   padding: 6px;
+}
+
+
+.page2 .imagpag .navbar2 ul .viewall{
+  padding-left: 421px;
+
+}
+.page2 .imagpag .navbar2  ul a{
+  color: gray;
+ margin: 20px;
+ height: 50px;
+margin-left: 10px;
+text-decoration: non;
+cursor: pointer;
+font-size: 25px;
+}
+/* Right-aligned link */
+.page2 .imagpag .navbar2 a.right {
+float: left; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.page2 .imagpag .navbar2 a:hover {
+ /* background-color: #ddd; Grey background color */
+ color: var(--darkblu); /* Black text color */
+}
+
+   .page2 .imagpag{
+     margin:20px;
+     /* margin-top: 20px; */
+     /* background-color: red; */
+     height: 100%;
+  width: 100%;
+  float: left;
+  padding-top: 10px;
+}
+
+.page2 .imagpag  .row {
+  display: flex;
+  margin-top: 20px;
+}
+
+.page2 .imagpag .row .columleft{
+
+  flex: 42%;
+
+}
+
+.page2 .imagpag .row .columnright{
+  flex:  42%;;
+}
+  
+  .page2 .imagpag .row .columleft .cardimag .mainCard  {
+    display: flex;
+    flex: 1;
+    padding: 3px;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* box-shadow: #999999; */
+  }
+  .page2 .imagpag .row .columleft  .cardimag .mainCard  .column1 {
+    display: flex;
+    flex: 1;
+    padding:4px;
+    /* margin: 4px; */
+    margin-left: 0px;
+      justify-content: flex-start;
+  }
+  .page2 .imagpag .row .columleft .cardimag .mainCard  .column1 .column2 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .page2 .imagpag .row .columleft  .cardimag .mainCard  .column1 .column2 .image1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .page2 .imagpag .row .columleft .cardimag .mainCard  .column1  .bagimag{
+    width:100%;
+    height: 92.2%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .page2 .imagpag .row .columleft .cardimag .mainCard  .column1  .bagimag :hover  {
+   transform: scale(1.5px);
+  
+  }
+  .page2 .imagpag .row .columleft .cardimag .mainCard  .column1 .column2 .image1 .smallimag1{
+    width:300px;
+    height: 248.5px;
+    border-top-right-radius: 10px;
+
+  }
+  .page2 .imagpag .row .columleft .cardimag .mainCard  .column1 .column2 .image1 .smallimag2{
+    width:300px;
+    height: 248.5px;
+    border-bottom-right-radius: 10px;
+
+  }
+
+  .page2 .imagpag .row .columleft .cardimag .titleimag{
+    margin:  7px;
+
+  }
+  .page2 .imagpag .row .columleft .cardimag .cardbuttomImage{
+    height: 50px;
+    width:105px;
+    background-color:#F1F1F1;
+    border-radius: 5px;
+    margin:10px;
+    /* // paddingLeft: '40px', */
+    /* border:"2px solid #0D113F"; */
+    text-align:center;
+    /* border-color:"#0D113F"; */
+    font-size:28px;
+    color:#999999;
+  }
+
+
+  /* column right */
+  .page2 .imagpag .row .columnright .cardimag .mainCard {
+    display: flex;
+    flex: 1;
+    padding: 3px;
+    box-shadow: #999999;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .page2 .imagpag .row .columnright  .cardimag .mainCard  .column1 {
+    display: flex;
+    flex: 1;
+    padding:4px;
+    margin-left: 0px;
+    justify-content: flex-start;
+  }
+  .page2 .imagpag .row .columnright .cardimag .mainCard  .column1 .column2 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .page2 .imagpag .row .columnright .cardimag .mainCard  .column1 .column2 .image1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+    
+
+  .page2 .imagpag .row .columnright .cardimag .mainCard  .column1  .bagimag{
+    width:100%;
+    height:99.2%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .page2 .imagpag .row .columleft .cardimag .mainCard  .column1  .bagimag :hover  {
+    transform: scale(1.5px);}
+
+  .page2 .imagpag .row .columnright .cardimag .mainCard  .column1 .column2 .image1 .smallimag1{
+    width:300px;
+    height: 248.5px;
+    border-top-right-radius: 10px;
+
+  }
+  .page2 .imagpag .row .columnright .cardimag .mainCard  .column1 .column2 .image1 .smallimag2{
+    width:300px;
+    height: 248.5px;
+    border-bottom-right-radius: 10px;
+  }
+
+  /* titlee image */
+
+  .page2 .imagpag .row .columnright .cardimag .titleimag{
+    margin:  7px;
+
+  }
+  .page2 .imagpag .row .columnright .cardimag .cardbuttomImage{
+    height:"50px";
+    width:105px;
+    background-color:#F1F1F1;
+    border-radius: 5px;
+    margin:5px;
+    /* // paddingLeft: '40px', */
+    /* border:"2px solid #0D113F"; */
+    text-align:center;
+    /* border-color:"#0D113F"; */
+    font-size:28px;
+    color:#999999;
+  }
+  /* end pag2 */
+
+
+/* popup for sigin */
+
+
+*************** model for sigin **************
+
+ .popup-sigin{
+  margin: 20px;
+  position: fixed;
+  background-color:rgba(243, 234, 234, 0.6);
+  left: 0;
+  top:40px;
+  width: 100%;
+  height: 100%;
+z-index: 2000;
+visibility: hidden;    
+}  
+
+/* when active model */
+ .popup-sigin .active{
+  opacity: 1;
+  visibility:visible;
+  left: 0;
+  top:40px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+ }
+
+
+  .popup-sigin .popup{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1.25);
+  background-color: #fff;
+  border: 1ox solid #ccc;
+  padding: 20px 30px;
+  width: 22%;
+  z-index:2003;
+ 
+ } 
+
+  .popup-sigin  .close-btn{
+  align-items: center;
+  position: absolute;
+top:30px ;
+right:30px;
+width: 20px;
+height: 20px;
+color:var(--darkblu);
+text-align: center;
+line-height: 15px;
+cursor:pointer  ;
+font-weight: bold;
+font-size: 40px;
+}
+
+ 
+ 
+
+.popup-sigin .popup .form{
+text-align: left; 
+  margin: 0px;
+} 
+
+.popup-sigin .popup .form h2{
+  text-align: center;
+  color:var(--darkblu);
+  margin: 10px 0px 20px;
+font-size: 25px;
+}
+
+.popup-sigin .popup  .form .form-element{
+margin: 15px 0px;
+}
+.popup-sigin .popup  .form .form-element label{
+  font-size :15px; 
+  color:var(--darkblu);
+
+}
+
+.popup-sigin .popup  .form .form-element input[type="text"],
+ .popup-sigin .popup  .form .form-element input[type="password"]{
+display: block;
+width: 90%;
+ padding: 10px;
+ outline:none;
+ border:0.5px solid var(--darkblu);
+ border-radius: 10px;
+ font-size: 13px;
+}
+.popup-overlay1 .popup  .form .form-element input[type="checkbox"] {
+ margin-right: 5px; 
+}
+
+.popup-sigin .popup  .form .form-element button{
+align-items: center;
+width: 90%;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: var(--darkblu);
+  color:#f5f5f5;
+  border-radius:10px ;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+                                                    
+
+
+/***************** model for login ************************/
+.popup-overlay1{
+  margin: 20px;
+  position: fixed;
+  background-color:rgba(243, 234, 234, 0.6);
+  left: 0;
+  top:40px;
+  width: 100%;
+  height: 100%;
+z-index: 1000;
+visibility: hidden;
+} 
+
+/* when active model */
+.popup-overlay1.active{
+  opacity: 1;
+  visibility:visible;
+  left: 0;
+  top:40px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+
+ }
+
+
+.popup-overlay1 .popup{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1.25);
+  background-color: #fff;
+  border: 1ox solid #ccc;
+  padding: 20px 30px;
+  width: 22%;
+  z-index: 1001;
+   }
+
+ .popup-overlay1  .close-btn{
+  align-items: center;
+  position: absolute;
+top:30px ;
+right:30px;
+width: 20px;
+height: 20px;
+color:var(--darkblu);
+text-align: center;
+line-height: 15px;
+cursor:pointer  ;
+font-weight: bold;
+font-size: 40px;
+}
+
+ 
+ 
+
+.popup-overlay1 .popup .form{
+text-align: left; 
+  margin: 0px;
+
+}
+.popup-overlay1 .popup .form h2{
+  text-align: center;
+  color:var(--darkblu);
+  margin: 10px 0px 20px;
+font-size: 25px;
+}
+
+.popup-overlay1 .popup  .form .form-element{
+margin: 15px 0px;
+}
+.popup-overlay1 .popup  .form .form-element label{
+  font-size :15px; 
+  color:var(--darkblu);
+
+}
+
+.popup-overlay1 .popup  .form .form-element input[type="text"],
+ .popup-overlay1 .popup  .form .form-element input[type="password"]{
+display: block;
+width: 90%;
+ padding: 10px;
+ outline:none;
+ border:0.5px solid var(--darkblu);
+ border-radius: 10px;
+ font-size: 13px;
+}
+.popup-overlay1 .popup  .form .form-element input[type="checkbox"] {
+ margin-right: 5px; 
+}
+
+.popup-overlay1 .popup  .form .form-element button{
+align-items: center;
+width: 90%;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: var(--darkblu);
+  color:#f5f5f5;
+  border-radius:10px ;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+/* model for slide imag */
+
+  .popup-overlay{
+    position: fixed;
+    background-color:rgba(148, 115, 115, 0.6);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+z-index: 1000;
+  }
+
+ .popup-box{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  border: 2px solid  var(--darkblu);
+  padding: 20px;
+  z-index: 1001;
+ }
+
+ .popup-box h3{
+  font-weight: bold;
+  text-align:center ;
+  margin: 0 0 20px;
+  color:var(--darkblu) ;
+ }
+ .popup-box img{
+  width: 500px;
+  height:500px;
+ }
+  .close-button{
+    border-radius: 50%; ;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: var(--darkblu);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color:white ;
+    cursor: pointer;
+    font-weight: bold;}
+
+    @media screen and (min-width:60px) {
+      /* .page1{
+        flex-direction: column;
+        /* width: 50%; */
+      /* } */ */
+      .navbar ul{
+        display: inline;
+        flex-direction: column;
+          }
+     }
+     
+
+ 
+
+
+

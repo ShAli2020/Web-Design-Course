@@ -1,0 +1,234 @@
+* ::selection{
+  background-color: gray;
+}
+
+:root{
+ --darkblu: #0D113F;
+ --blulight:#F5F5FF;
+--white:#ffffff;
+--gray:#f5f5f5;
+--black:#222;
+} 
+
+body{
+ box-sizing: border-box;
+     margin: 10px;
+     width: 100vw;
+     height: 100vh;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.main{
+  display: flex;
+  flex-direction: row;
+padding: 10px;
+background-color: var(--darkblu);
+height: 450px;
+width: 1192px;
+    border-radius: 15px;
+    margin-top: 3ch;
+    margin-left: 3ch;
+position: relative;
+
+}
+/* card one */
+.main .container{
+  z-index: 0;
+  position: absolute;
+  top: -77px;
+  left: -19px;
+  color:#F5F5F5;
+margin-left:63px;
+
+  display: flex;
+  flex-direction: column;
+  /* width:"700px",
+  lineHeight: "75px; */
+}
+
+   .main .container .contactus{
+    /* position: absolute;
+    top: -77px;
+    left: 101px; */
+      font-size: 56px;
+      margin: 10px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #0D113F;
+      text-shadow: -1px 1px 0 rgb(255 255 255 / 27%), 1px 1px 0 rgb(255 255 255 / 20%), 1px -1px 0 rgb(255 255 255 / 22%), -1px -1px 0 rgb(255 255 255 / 20%);
+  }
+   
+    .main .container .contactus2{
+      font-size: 64px;
+      position: absolute;
+      top: 139px;
+      padding-left: 12px;
+    }
+    /* card tow */
+    .main .container .contact{
+      padding: 10px;
+margin-left: 10px;
+    }
+    .main .container .contact i{
+      background-color: #E3E8F0;
+    }
+    .main .container .contact label{
+      font-size:19px ;
+       font-Family:cairo-font;
+       padding:10px 
+    }
+
+
+/* card info */
+
+      .main .container2{
+        position: absolute;
+        height: 464px;
+        width: 566px;
+        left: 778px;
+        top: 85px;
+        z-index: 1;
+        color: #F5F5F5;
+        box-shadow: 4px 4px 4px #e3e8f0;
+        background-color: #FFFFFF;
+        margin-right: 20px;
+        padding: 6px;
+        display: flex;
+        flex-direction: column;
+       margin: 5px;
+        border-radius: 4px;}
+ 
+         /* .main .container2 .style_column{
+         display: flex;
+         flex-direction: row;
+ /* //   width: "50%", */
+   
+       .main .container2 .label{
+        padding-left:15px;
+        color:var(--darkblu);
+        font-size: 20px;
+      }
+
+
+      
+      .main .container2 .inputname {
+        margin-left: 10px;
+
+        height: 21px;
+        width: 198px;
+         background-color: #F5F5F5;
+         color: #E3E8F0;
+         padding: 6px ;
+         border: #E3E8F0 sold;
+         border-radius: 23px;
+         cursor: pointer;
+       }
+
+
+       .main .container2 .inputStyle{
+        background-color: #F5F5F5;
+      color: #E3E8F0;
+      padding: 6px ;
+      margin-left: 10px;
+
+      border: #E3E8F0 sold;
+      border-radius: 23px;
+      cursor: pointer;
+      height: 21px;
+      width: 449px;
+      }
+
+      .main .container2 .message{
+        height: 122px;
+        width: 542px;
+background-color: #F5F5F5;
+padding: 12px;
+border: 1px solid #ccc; 
+border-radius: 23px;
+box-sizing: border-box;
+margin-top: 6px; 
+margin-bottom: 6px;
+margin-left: 10px;
+resize: vertical;}
+
+/* buttom sent massage */
+.main .container2 .sentmass{
+  padding:10px;
+  width:260px;
+  height:40px;
+background-color:#0D113F;
+border-radius: 23px;
+color:#FFFFFF;}
+
+/* footer of web */
+.footer{
+  background-color:#0D113F;
+  height: 154px;
+  width: 98%;
+  margin-top: 300px;
+}
+.footer .row{
+  margin-left: 40px;
+  /* height: 100px;; */
+  margin: 20px;
+  align-items: center;
+  
+}
+
+/*   logo in footer */
+.footer .row .column{
+  position: relative;
+    align-items:stretch;
+    color:var(--white);
+  margin-left: 10px;
+    float: left;
+    width: 26%;
+    height: 100px;
+    padding: 20px;
+    margin: 16px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+
+.footer .row .column .logo {
+padding: 10px;
+}
+.footer .row .column .logo .titllog{font-size:25px ;
+  font-size: 31px;
+  position: absolute;
+  top: 31px;
+  left: 81px;
+  margin: 5px;}
+    
+
+/* pag in footer */
+
+  .footer .row .column .section{
+
+    padding: 3px;
+    padding-left: 76px;
+
+  }
+  .footer .row .column .section a{
+    color:var(--white);
+    text-decoration: none;
+  }
+
+  .footer .row .column .section a:hover{
+    color: var(--black);
+  }
+
+  /* socail medai */
+  .footer .row .column .contact{
+    padding: 3px;
+    padding-left: 76px;
+
+  }
+  .footer .row .column .contact lable{
+    font-size:20px;
+     font-family:cairo-font;
+     padding:12px
+  } 
